@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "willyhorizont@gmail.com",
+                "Name": "Willy Horizont"
+            }
+        ],
+        "BugReportUrl": "https://willyhorizont.github.io/contact",
+        "Category": "Date and Time",
+        "Description": "Clock displayed in Willy Horizont's clock format",
+        "Icon": "preferences-system-time",
+        "License": "MIT",
+        "Name": "Willy Horizont Panel Clock",
+        "Website": "https://willyhorizont.github.io",
+        "Id": "willyhorizont.kdeplasma.panelclock",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
