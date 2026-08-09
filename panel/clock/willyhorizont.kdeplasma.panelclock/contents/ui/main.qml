@@ -7,7 +7,6 @@ import org.kde.plasma.core as PlasmaCore
 PlasmoidItem {
     id: root
 
-    Layout.fillWidth: true
     Layout.minimumWidth: timeLabel.implicitWidth + 4
 
     Timer {

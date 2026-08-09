@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "willyhorizont@gmail.com",
+                "Name": "Willy Horizont"
+            }
+        ],
+        "BugReportUrl": "https://willyhorizont.github.io/contact",
+        "Category": "Utilities",
+        "Description": "Fill available space in panel with text space available",
+        "Icon": "draw-text",
+        "License": "MIT",
+        "Name": "Willy Horizont Panel Space Available Text",
+        "Website": "https://willyhorizont.github.io",
+        "Id": "willyhorizont.kdeplasma.panelspaceavailable",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

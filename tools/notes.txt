@@ -1,0 +1,4 @@
+https://develop.kde.org/docs/plasma/widget/properties/#category
+
+sudo dnf install gh
+gh auth login
