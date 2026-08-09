@@ -1,0 +1,102 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "modules": [
+        "title",
+        "separator",
+
+        {
+            "key": "Name",
+            "type": "host",
+            // !!! customize here !!!
+            "format": "Lenovo ThinkPad T430s i7 non-Nvidia"
+        },
+        
+        // !!! customize here !!!
+        {
+            "key": "CPU",
+            "type": "cpu",
+            "format": "Intel Core i7-3520M, 3th Gen \"Ivy Bridge-M\", 22nm"
+        },
+        {
+            "key": " ",
+            "type": "cpu",
+            "format": "     2.9 — 3.6GHz, 2 Cores, 4 Threads, 4MB Cache, 35W TDP"
+        },
+
+        // !!! customize here !!!
+        {
+            "key": "GPU Integrated",
+            "type": "gpu",
+            "format": "Intel HD Graphics 4000"
+        },
+        {
+            "key": "GPU Dedicated",
+            "type": "custom",
+            "format": "None"
+        },
+
+        // !!! customize here !!!
+        {
+            "key": "RAM",
+            "type": "custom",
+            "format": "16GB DDR3-1600 (8GB SO-DIMM + 8GB SO-DIMM)"
+        },
+
+        // !!! customize here !!!
+        {
+            "key": "Storage",
+            "type": "custom",
+            "format": "256GB SSD 2.5inch SATA"
+        },
+
+
+        // !!! customize here !!!
+        {
+            "key": "OS",
+            "type": "custom",
+            "format": "GNU + Linux"
+        },
+        {
+            "key": "Distro",
+            "type": "os"
+        },
+
+        {
+            "key": "Desktop Environment",
+            "type": "de"
+        },
+
+        "kernel",
+        "shell",
+
+        // !!! customize here !!!
+        {
+            "key": "Swap Partition",
+            "type": "swap",
+            "format": "{2}"
+        },
+
+        {
+            "key": "Boot Manager",
+            "type": "bootmgr",
+            "format": "{1}"
+        },
+
+        "initsystem",
+
+        {
+            "key": "Login Manager / Display Manager",
+            "type": "lm"
+        },
+
+        {
+        "key": "Window Manager",
+        "type": "wm"
+        },
+
+        {
+            "key": "Terminal Emulator",
+            "type": "terminal"
+        }
+    ]
+}
