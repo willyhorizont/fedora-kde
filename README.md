@@ -1,7 +1,12 @@
 # fedora-kde
 My Fedora KDE ricing
 
-KDE Plasma panel clock with my clock format.  
+My Clock format:  
 ```MM / 12 'months' | dd / $total_days 'days' | ddd, dd MMM yyyy | hh:mm:ss | hh:mm:ss AP```
 
-Lockscreen clock with my clock format.
+KDE Plasma panel clock with my clock format.  
+
+Lockscreen clock with my clock format.  
+
+open /etc/locale.conf and add this:
+LC_TIME="C.UTF-8"
