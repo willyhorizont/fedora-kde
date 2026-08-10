@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "willyhorizont@gmail.com",
+                "Name": "Willy Horizont"
+            }
+        ],
+        "BugReportUrl": "https://willyhorizont.github.io/contact",
+        "Category": "Utilities",
+        "Description": "Free text in panel",
+        "Icon": "draw-text",
+        "License": "MIT",
+        "Name": "Willy Horizont Panel Free Text",
+        "Website": "https://willyhorizont.github.io",
+        "Id": "willyhorizont.kdeplasma.panelfreetext",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
