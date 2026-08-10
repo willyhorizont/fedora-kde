@@ -1,0 +1,11 @@
+[Window]
+Description=Window
+fullscreenrule=2
+ignoregeometry=true
+ignoregeometryrule=2
+maximizehorizrule=3
+maximizevertrule=3
+positionrule=3
+types=1
+wmclass=^(?!org\\.kde\\.konsole$).*
+wmclassmatch=3
