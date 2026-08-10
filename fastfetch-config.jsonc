@@ -8,9 +8,9 @@
             "key": "Name",
             "type": "host",
             // !!! customize here !!!
-            "format": "Lenovo ThinkPad T430s i7 non-Nvidia"
+            "format": "(2012) Lenovo ThinkPad T430s i7 non-Nvidia"
         },
-        
+
         // !!! customize here !!!
         {
             "key": "CPU",
@@ -20,7 +20,7 @@
         {
             "key": " ",
             "type": "cpu",
-            "format": "     2.9 — 3.6GHz, 2 Cores, 4 Threads, 4MB Cache, 35W TDP"
+            "format": "         2.9 — 3.6GHz, 2 Cores, 4 Threads, 4MB Cache, 35W TDP"
         },
 
         // !!! customize here !!!
@@ -48,7 +48,6 @@
             "type": "custom",
             "format": "256GB SSD 2.5inch SATA"
         },
-
 
         // !!! customize here !!!
         {
@@ -90,8 +89,8 @@
         },
 
         {
-        "key": "Window Manager",
-        "type": "wm"
+            "key": "Window Manager",
+            "type": "wm"
         },
 
         {
