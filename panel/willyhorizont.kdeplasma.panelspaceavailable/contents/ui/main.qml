@@ -8,8 +8,7 @@ PlasmoidItem {
     id: root
 
     Layout.fillWidth: true
-    Layout.minimumWidth: spaceAvailableLabel.implicitWidth + 4
-    Layout.preferredWidth: Infinity
+    Layout.preferredWidth: spaceAvailableLabel.implicitWidth + 4
 
     Component.onCompleted: {
         spaceAvailableLabel.text = "SPACE AVAILABLE";

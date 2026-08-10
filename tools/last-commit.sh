@@ -2,7 +2,7 @@
 
 SD=$(dirname "$(realpath "$0")")
 RD=$(realpath "$SD/..")
-V="0.0.4" # ! DON'T FORGET TO CHANGE VERSION BEFORE RUNNING !!!!
+V="0.0.5" # ! DON'T FORGET TO CHANGE VERSION BEFORE RUNNING !!!!
 T=$(date "+%d %b %Y @ %I:%M %p")
 cd "$RD" || exit
 
@@ -13,7 +13,8 @@ version $V:
 H=$(sed -e '/./,$!d' <<< "$H")
 # ! DON'T FORGET TO CHANGE COMMIT MESSAGE BEFORE RUNNING !!!!
 M="
-add kwin window;
+update freetext widget;
+update space available panel widget;
 "
 M=$(sed -e '/./,$!d' <<< "$M")
 M="$H
