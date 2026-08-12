@@ -1,3 +1,7 @@
+[Last updated: 13 Aug 2026 @ 05:52 AM]
+version 0.0.9:
+add cheatsheet;
+
 [Last updated: 11 Aug 2026 @ 01:46 PM]
 version 0.0.8:
 update last-commit.sh;
