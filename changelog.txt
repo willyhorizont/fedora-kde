@@ -1,5 +1,4 @@
-[Last updated: 14 Aug 2026 @ 06:34 PM]
-version 0.0.10:
+[Last updated: 14 Aug 2026 @ 06:45 PM] version 0.0.14
 add dnf-conf.lnk;
 add fastestmirror;
 
