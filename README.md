@@ -8,5 +8,12 @@ KDE Plasma panel clock with my clock format.
 
 Lockscreen clock with my clock format.  
 
-open /etc/locale.conf and add this:
+open ```/etc/dnf/dnf.conf``` and add this:  
+```
+fastestmirror=True
+```
+
+open ```/etc/locale.conf``` and add this:
+```
 LC_TIME="C.UTF-8"
+```
