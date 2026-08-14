@@ -1,3 +1,7 @@
+[Last updated: 14 Aug 2026 @ 06:38 PM] version 0.0.12
+add dnf-conf.lnk;
+add fastestmirror;
+
 [Last updated: 14 Aug 2026 @ 06:36 PM] version 0.0.11
 add dnf-conf.lnk;
 add fastestmirror;
