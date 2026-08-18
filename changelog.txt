@@ -1,3 +1,6 @@
+[Last updated: 18 Aug 2026 @ 04:28 PM] version 0.0.15
+add FromKateToVscode.shortcuts;
+
 [Last updated: 14 Aug 2026 @ 06:45 PM] version 0.0.14
 add dnf-conf.lnk;
 add fastestmirror;
