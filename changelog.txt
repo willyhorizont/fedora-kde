@@ -1,3 +1,6 @@
+[Last updated: 21 Aug 2026 @ 04:27 AM] version 0.0.17
+update fastfetch-config.jsonc;
+
 [Last updated: 21 Aug 2026 @ 04:17 AM] version 0.0.16
 update fastfetch-config.jsonc;
 

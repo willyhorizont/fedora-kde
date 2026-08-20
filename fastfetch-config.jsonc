@@ -50,8 +50,8 @@
         {
             "key": "RAM",
             "type": "custom",
-            "format": "32GB DDR4-3200 (16GB Soldered + 16GB SO-DIMM)",
-            // "format": "16GB DDR3-1600 (8GB SO-DIMM + 8GB SO-DIMM)",
+            "format": "16GB DDR3-1600 (8GB SO-DIMM + 8GB SO-DIMM)",
+            // "format": "32GB DDR4-3200 (16GB Soldered + 16GB SO-DIMM)",
         },
 
         // !!! customize here !!!
