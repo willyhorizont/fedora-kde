@@ -1,5 +1,12 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "display": {
+        "color": {
+            "title": "#00add8",
+            "keys": "#ff1493",
+            "output": "#ccff00",
+        }
+    },
     "modules": [
         "title",
         "separator",
@@ -8,26 +15,30 @@
             "key": "Name",
             "type": "host",
             // !!! customize here !!!
-            "format": "(2012) Lenovo ThinkPad T430s i7 non-Nvidia"
+            "format": "(2012) Lenovo ThinkPad T430s i7 non-Nvidia",
+            // "format": "(2021) Lenovo ThinkPad T14 Gen 2 AMD 5850U 16GB Soldered RAM",
         },
 
         // !!! customize here !!!
         {
             "key": "CPU",
             "type": "cpu",
-            "format": "Intel Core i7-3520M, 3th Gen \"Ivy Bridge-M\", 22nm"
+            "format": "Intel Core i7-3520M, 3th Gen \"Ivy Bridge-M\", 22nm",
+            // "format": "AMD Ryzen 7 5850U, Zen 3 / GCN5 based \"Cezanne-U\", TSMC 7nm",
         },
         {
             "key": " ",
             "type": "cpu",
-            "format": "         2.9 — 3.6GHz, 2 Cores, 4 Threads, 4MB Cache, 35W TDP"
+            "format": "         2.9 — 3.6GHz, 2 Cores, 4 Threads, 4MB Cache, 35W TDP",
+            // "format": "     1.9 – 4.4GHz, 8 Cores, 16 Threads, 20MB Cache, 15W TDP",
         },
 
         // !!! customize here !!!
         {
             "key": "GPU Integrated",
             "type": "gpu",
-            "format": "Intel HD Graphics 4000"
+            "format": "Intel HD Graphics 4000",
+            // "format": "AMD Radeon Vega 8"
         },
         {
             "key": "GPU Dedicated",
@@ -39,14 +50,16 @@
         {
             "key": "RAM",
             "type": "custom",
-            "format": "16GB DDR3-1600 (8GB SO-DIMM + 8GB SO-DIMM)"
+            "format": "32GB DDR4-3200 (16GB Soldered + 16GB SO-DIMM)",
+            // "format": "16GB DDR3-1600 (8GB SO-DIMM + 8GB SO-DIMM)",
         },
 
         // !!! customize here !!!
         {
             "key": "Storage",
             "type": "custom",
-            "format": "256GB SSD 2.5inch SATA"
+            "format": "256GB SSD 2.5inch SATA",
+            // "format": "1TB SSD M.2 2280 PCIe NVMe",
         },
 
         // !!! customize here !!!
@@ -96,6 +109,19 @@
         {
             "key": "Terminal Emulator",
             "type": "terminal"
+        },
+
+        {
+            "type": "custom",
+            "format": "{##f1e05a}███{#}{##3178c6}███{#}{##3572A5}███{#}{##4F5D95}███{#}{##00ADD8}███{#}{##0298c3}███{#}{##a270ba}███{#}{##000080}███{#}{##701516}███{#}{##198CE7}███{#}{##A97BFF}███{#}{##F05138}███{#}{##00B4AB}███{#}{##945db7}███{#}{##178600}███{#}{##e16737}███{#}{##dd1100}███{#}{##0000fb}███{#}{##c22d40}███{#}{##b07219}███{#}{##c9df40}███{#}{##55BB55}███{#}"
+        },
+        {
+            "type": "custom",
+            "format": "{##199f4b}███{#}{##dea584}███{#}{##7e7eff}███{#}{##e4cc98}███{#}{##355570}███{#}{##239dad}███{#}{##012456}███{#}{##6e4a7e}███{#}{##ef7a08}███{#}{##B83998}███{#}{##ffaff3}███{#}{##ec915c}███{#}{##ffc200}███{#}{##60AFFE}███{#}{##f34b7d}███{#}{##438eff}███{#}{##596706}███{#}{##882B0F}███{#}{##4298b8}███{#}{##00868B}███{#}{##2563eb}███{#}{##555555}███{#}"
+        },
+        {
+            "type": "custom",
+            "format": "{##ba595e}███{#}{##4f87c4}███{#}{##a56de2}███{#}{##000100}███{#}{##383838}███{#}{##005390}███{#}"
         }
     ]
 }
