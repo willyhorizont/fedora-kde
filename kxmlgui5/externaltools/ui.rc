@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE gui SYSTEM 'kpartgui.dtd'>
+<gui name="externaltools" translationDomain="kateexternaltoolsplugin" version="6">
+ <MenuBar>
+  <Menu name="tools">
+   <text>&amp;Tools</text>
+   <Action group="tools_operations3" name="tools_external"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar name="mainToolBar" noMerge="1">
+  <text>Main Toolbar</text>
+ </ToolBar>
+ <ActionProperties scheme="Vscode">
+  <Action name="externaltool_ClangFormatFullFile" shortcut=""/>
+  <Action name="externaltool_ClangFormatSelectedText" shortcut=""/>
+  <Action name="externaltool_C++CompileRun" shortcut=""/>
+  <Action name="externaltool_gitblame" shortcut=""/>
+  <Action name="externaltool_gitcola" shortcut=""/>
+  <Action name="externaltool_gitk" shortcut=""/>
+  <Action name="externaltool_GoFmt" shortcut=""/>
+  <Action name="externaltool_GoImports" shortcut=""/>
+  <Action name="externaltool_GoogleSelectedText" shortcut=""/>
+  <Action name="externaltool_InsertUUID" shortcut=""/>
+  <Action name="externaltool_JSONFormatFullFile" shortcut=""/>
+  <Action name="externaltool_Prettier" shortcut=""/>
+  <Action name="externaltool_QtQuick2Previewqmlscene" shortcut=""/>
+  <Action name="externaltool_RunShellScript" shortcut=""/>
+  <Action name="externaltool_RustFmt" shortcut=""/>
+  <Action name="externaltool_KDEAPI" shortcut=""/>
+  <Action name="externaltool_QtAPI" shortcut=""/>
+  <Action name="externaltool_XMLFormatFullFile" shortcut=""/>
+  <Action name="externaltool_CodeRunner" shortcut="Ctrl+Alt+N"/>
+ </ActionProperties>
+</gui>

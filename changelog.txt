@@ -1,3 +1,13 @@
+[Last updated: 22 Aug 2026 @ 05:02 AM] version 0.0.19
+add kate code-runner;
+add .kateconfig;
+update kate shortcuts;
+update katerc;
+add more lnks;
+update cheatsheets;
+update notes;
+add kxmlgui5;
+
 [Last updated: 21 Aug 2026 @ 10:01 PM] version 0.0.18
 add colors;
 add theme;

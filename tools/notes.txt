@@ -6,3 +6,5 @@ gh auth login
 fastfetch --list-modules
 fastfetch -h <module>-format
 fastfetch -h cpu-forma
+
+https://docs.kde.org/trunk_kf6/en/kate/kate/kate-application-plugin-external-tools.html
