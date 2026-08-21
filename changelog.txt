@@ -1,3 +1,10 @@
+[Last updated: 21 Aug 2026 @ 10:01 PM] version 0.0.18
+add colors;
+add theme;
+update kate shortcuts;
+add .kateconfig;
+add katerc;
+
 [Last updated: 21 Aug 2026 @ 04:27 AM] version 0.0.17
 update fastfetch-config.jsonc;
 
