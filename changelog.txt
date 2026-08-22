@@ -1,3 +1,6 @@
+[Last updated: 22 Aug 2026 @ 09:36 AM] version 0.0.20
+add code-runner;
+
 [Last updated: 22 Aug 2026 @ 05:02 AM] version 0.0.19
 add kate code-runner;
 add .kateconfig;
