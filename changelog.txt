@@ -1,3 +1,6 @@
+[Last updated: 22 Aug 2026 @ 11:02 AM] version 0.0.21
+update kate-externaltools-code-runner;
+
 [Last updated: 22 Aug 2026 @ 09:36 AM] version 0.0.20
 add code-runner;
 
