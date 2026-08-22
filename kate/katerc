@@ -108,7 +108,7 @@ Auto Color Theme Selection=false
 Color Theme=VSCodium Bordo Dark
 Line Height Multiplier=1
 Show Indentation Lines=true
-Show Whole Bracket Expression=true
+Show Whole Bracket Expression=false
 Text Font=Noto Sans Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 Text Font Features=
 Word Wrap Marker=false
@@ -184,16 +184,19 @@ AutoSyncronizeMode=0
 KonsoleEscKeyBehaviour=true
 KonsoleEscKeyExceptions=vi,vim,nvim,git
 RemoveExtension=false
-RunPrefix=cd "%{Project:Path}"
+RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=969
-1920x1080 screen: Width=1892
+1920x1080 screen: Height=991
+1920x1080 screen: Width=952
 1920x1080 screen: Window-Maximized=true
 
 [Shortcut Schemes]
 Current Scheme=Vscode
+
+[Shortcuts]
+kate_mdi_focus_toolview_kateprojectinfo=Ctrl+`
 
 [UiSettings]
 ColorScheme=CodeEditorBordoDark
