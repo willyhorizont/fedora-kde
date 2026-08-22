@@ -1,8 +1,0 @@
-[[open.prepend_rules]]
-mime = "text/*"
-use = "fresh_editor"
-
-[opener]
-fresh_editor = [
-    { run = 'fresh "$@"', block = true, for = "unix" }
-]

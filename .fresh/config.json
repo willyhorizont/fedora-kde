@@ -1,4 +1,24 @@
 {
+    "active_keybinding_map": "vscode",
+    "file_explorer": {
+        "show_hidden": true
+    },
+    "version": 2,
+    "plugins": {
+        "vi_mode": {
+        "enabled": true,
+        "settings": {
+            "autoStart": false,
+            "arrowKeys": true,
+            "searchWordUnderCursor": true
+        }
+        }
+    },
+    "theme": "high-contrast-bordo.json",
+    "editor": {
+        "line_wrap": false,
+        "show_horizontal_scrollbar": false
+    },
     "languages": {
         "javascript": {
             "extensions": [
